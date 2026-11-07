@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="app-moto: grave seus rolês de moto">
+  <defs>
+    <linearGradient id="ceu" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1d24"/>
+      <stop offset="1" stop-color="#0f1115"/>
+    </linearGradient>
+    <linearGradient id="calor" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffb347"/>
+      <stop offset="0.45" stop-color="#ff7a1a"/>
+      <stop offset="0.8" stop-color="#b8327a"/>
+      <stop offset="1" stop-color="#4b1d6e"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="360" fill="url(#ceu)"/>
+
+  <!-- serras ao fundo -->
+  <path d="M0 250 L120 190 L210 230 L330 160 L450 225 L560 180 L690 235 L800 170 L930 220 L1050 175 L1200 230 L1200 360 L0 360 Z" fill="#20242d"/>
+  <path d="M0 285 L160 240 L300 275 L470 230 L640 280 L820 235 L990 275 L1200 245 L1200 360 L0 360 Z" fill="#171a20"/>
+
+  <!-- estrada (pista) -->
+  <path d="M-20 330 C 220 330, 300 250, 520 250 S 860 300, 1220 210" fill="none" stroke="#2a2e37" stroke-width="34" stroke-linecap="round"/>
+  <path d="M-20 330 C 220 330, 300 250, 520 250 S 860 300, 1220 210" fill="none" stroke="#9aa0aa" stroke-width="2" stroke-dasharray="18 16" opacity="0.5"/>
+
+  <!-- rastro do rolê: laranja virando roxo (mapa de calor) -->
+  <path d="M40 318 C 240 318, 310 238, 520 238 S 850 288, 1080 228" fill="none" stroke="#0f1115" stroke-width="12" stroke-linecap="round"/>
+  <path d="M40 318 C 240 318, 310 238, 520 238 S 850 288, 1080 228" fill="none" stroke="url(#calor)" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- partida e posição atual -->
+  <circle cx="40" cy="318" r="10" fill="#2fbf71" stroke="#fff" stroke-width="3"/>
+  <circle cx="1080" cy="228" r="22" fill="#3b82f6" opacity="0.25"/>
+  <circle cx="1080" cy="228" r="11" fill="#3b82f6" stroke="#fff" stroke-width="3"/>
+
+  <!-- marcos de km -->
+  <g font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="14" fill="#9aa0aa">
+    <text x="300" y="232">km 12</text>
+    <text x="700" y="226">km 31</text>
+  </g>
+
+  <!-- título -->
+  <g font-family="Segoe UI, Roboto, Arial, sans-serif">
+    <text x="60" y="95" font-size="64" font-weight="800" fill="#f2f3f5">app-moto</text>
+    <text x="62" y="138" font-size="24" fill="#c9ccd2">Grave seus rolês. Explore a estrada. Nunca uma corrida.</text>
+    <text x="1140" y="60" font-size="22" font-weight="800" fill="#22c3e6" text-anchor="end" letter-spacing="2">QYUDEV.</text>
+  </g>
+</svg>

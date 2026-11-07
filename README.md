@@ -1,6 +1,8 @@
-<div align="center">
+<p align="center">
+  <img src="banner.svg" alt="app-moto: grave seus rolês de moto" width="100%">
+</p>
 
-# 🏍️ app-moto
+<div align="center">
 
 **O diário de estrada do motociclista.**
 Grave seus rolês pelo GPS, veja o mapa ao vivo, junte bandeiras e pins, e descubra estradas novas: tudo funcionando até sem sinal.
@@ -107,7 +109,13 @@ A lista completa, com todas as bibliotecas e licenças, fica na tela **Créditos
 
 ## 📬 Contato
 
-**contato.qyudev@gmail.com**
+<p>
+  <a href="mailto:contato.qyudev@gmail.com"><img alt="E-mail" src="https://img.shields.io/badge/e--mail-contato.qyudev%40gmail.com-ea4335?logo=gmail&logoColor=white"></a>
+  <a href="https://www.linkedin.com/in/rameson-jac%C3%B3-772547120/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Rameson%20Jac%C3%B3-0a66c2?logo=linkedin&logoColor=white"></a>
+  <a href="https://github.com/JacobbV"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-JacobbV-181717?logo=github&logoColor=white"></a>
+</p>
+
+Dúvidas, sugestões ou quer entrar nos testes? Manda um e-mail.
 
 ---
 
@@ -115,5 +123,10 @@ A lista completa, com todas as bibliotecas e licenças, fica na tela **Créditos
 
 © 2026 **QyuDev** (Rameson Jacó). **Todos os direitos reservados.**
 O app, o nome, o visual, os desenhos dos pins e o código são de propriedade da QyuDev. Veja o arquivo [LICENSE](LICENSE).
+
+<br><br>
+
+Feito no sertão da Paraíba, sobre duas rodas.<br>
+<b>QYUDEV.</b>
 
 </div>
